@@ -33,8 +33,8 @@ d. Functional Programming
 	  1. URL: https://edabit.com/challenge/Fev8jkLtDunP9wexv
 	  2.Solutions: https://www.dropbox.com/s/epoawit7jy0g5jw/firstIndex.png?dl=0
   II. Challenge
-	  1. URL: 
-	  2. Solutions:
+	  1. URL: https://edabit.com/challenge/ENWFBL4jbTgLbSqwS
+	  2. Solutions: https://www.dropbox.com/s/dukdrlnpzecjbje/makePlusFunction.png?dl=0
 e. Scope
   I. Challenge
 	  1. URL: https://edabit.com/challenge/6ALbTxgu8BZaa6YYN 
@@ -44,8 +44,8 @@ e. Scope
 	  2. Solutions:
 f. Objects
   I. Challenge
-	  1. URL: 
-	  2. Solutions:
+	  1. URL: https://edabit.com/challenge/5qYYauQwYwxz3nd9R
+	  2. Solutions: https://www.dropbox.com/s/rgwvcn68qo68cx5/freeShipping.png?dl=0
   II. Challenge
 	  1. URL: https://edabit.com/challenge/5Yt2CrYdrJvoJFHRt
 	  2. Solutions: https://www.dropbox.com/s/z1agitk025q3lpv/mapping.png?dl=0
