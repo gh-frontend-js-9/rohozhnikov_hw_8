@@ -41,7 +41,24 @@
 2. Solutions: https://www.dropbox.com/s/9v4m79o2nez08r9/numberOfSwaps.png?dl=0
 ##### II. Challenge
 1. URL: 
-2. Solutions:
+2. Code:
+```javascript
+function change(x, times) {
+  var x = x.slice()
+  for (let i = 0; i < x.length; i++) {
+    let j = 1;
+    while (j <= times) {
+      if (i >= j && i < x.length - j) {
+        x[i]--;
+      }
+      j++;
+    }
+  }
+  return x;
+}
+
+let x = [3, 3, 3, 3, 3, 3, 3]
+```
 ### f. Objects
 ##### I. Challenge
 1. URL: https://edabit.com/challenge/5qYYauQwYwxz3nd9R
@@ -51,8 +68,39 @@
 2. Solutions: https://www.dropbox.com/s/z1agitk025q3lpv/mapping.png?dl=0
 ### g. Classes
 ##### I. Challenge
-1. URL: 
-2. Solutions:
+1. URL: https://edabit.com/challenge/Hgb38yhWGwJCMHbRQ
+2. Code:
+```javascript
+class Rectangle {
+  constructor(sideA,sideB){
+    this.sideA = sideA;
+    this.sideB = sideB;
+  }
+  getArea(){return this.sideA*this.sideB};
+  getPerimeter(){return (this.sideA + this.sideB) *2 };
+}
+
+
+class Circle {
+	constructor(r){
+    this.r = r;
+  }
+  
+  getArea(){return Math.PI * this.r * this.r}
+  getPerimeter(){return 2 * Math.PI * this.r}
+}
+
+let q = new Circle(4.44);
+```
 ##### II. Challenge
-1. URL: 
-2. Solutions:
+1. URL: https://edabit.com/challenge/9zwdrfW99zmdRhibi
+2. Code:
+```javascript
+class OnesThreesNines{
+	constructor(n){
+		this.ones = Math.floor(n / 1);
+		this.threes = Math.floor(n / 3);
+		this.nines = Math.floor(n / 9);
+	}
+}
+```
